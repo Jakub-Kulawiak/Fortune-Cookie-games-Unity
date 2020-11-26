@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637419583322817380
-    m_Hash: 596550147
+      ticks: 637420255819192833
+    m_Hash: 2606838559
   m_LockFileStatus:
     m_FilePath: C:/Users/Jakub/Documents/GitHub/Fortune-Cookie-games-Unity/Chrono
       Dash/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637419583372178499
-    m_Hash: 1538572762
+      ticks: 637420255819192833
+    m_Hash: 2541589012
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

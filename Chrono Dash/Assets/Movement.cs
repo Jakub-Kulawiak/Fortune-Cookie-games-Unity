@@ -7,10 +7,12 @@ public class Movement : MonoBehaviour
     public float speed = 10f;
     public Animator animator;
     public bool facingRight = true;
+    public GameObject gameOverText, restartButton;
     // Start is called before the first frame update
     void Start()
     {
-
+        gameOverText.SetActive(false);
+        restartButton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -45,5 +47,15 @@ public class Movement : MonoBehaviour
         Vector4 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+    
+    void OnCollisionEnter2D (Collision2D col)
+    {
+        if (col.gameObject.tag.Equals ("Enemy"))
+        {
+            gameOverText.SetActive(true);
+            restartButton.SetActive(true);
+            gameObject.SetActive(false);
+        }
     }
 }
